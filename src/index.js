@@ -1,11 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
-import { CommentBox } from './components/CommentBox';
+import App from './components/App';
 
 require('./style.css');
 
 ReactDOM.render (
-  <CommentBox/>,
+  <App/>,
   document.getElementById('react-mount')
 );

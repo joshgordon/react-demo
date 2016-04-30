@@ -40,5 +40,14 @@ module.exports = {
     },
     historyApiFallback: true,
     progress: true,
+    proxy: {
+    '/api/*': {
+      target: "http://pyrelay:8080/",
+      secure: false
+    },
+    '/pyrelay': {
+      target: "https://labelstore.herokuapp.com/"
+    }
+  },
   }
 };

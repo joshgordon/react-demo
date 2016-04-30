@@ -10,6 +10,8 @@
   "author": "David Young <ohnoitsyou7043@gmail.com>",
   "license": "ISC",
   "dependencies": {
+    "immutable": "^3.8.1",
+    "jquery": "^2.2.3",
     "react": "^15.0.1",
     "react-addons-update": "^15.0.1",
     "react-dom": "15.0.1"
