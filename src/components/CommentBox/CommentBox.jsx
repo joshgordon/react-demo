@@ -1,5 +1,7 @@
 import React from 'react'
 
+require('./CommentBox.less');
+
 class CommentBox extends React.Component {
   constructor (props) {
     super (props)
@@ -8,7 +10,7 @@ class CommentBox extends React.Component {
 
   render () {
     return (
-      <div class="commentBox">
+      <div className="commentBox">
         <p>"Hello, world! I am a CommentBox."</p>
       </div>
     )
