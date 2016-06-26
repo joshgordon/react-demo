@@ -1,6 +1,6 @@
 import React from 'react';
 import $ from 'jquery';
-import Label from './label';
+import Label from './Label';
 
 require('./Toggle.less');
 

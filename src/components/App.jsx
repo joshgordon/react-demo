@@ -1,5 +1,5 @@
 import React from 'react';
-import Toggle from './toggle';
+import Toggle from './Toggle';
 import immutable from 'immutable';
 import $ from 'jquery';
 
